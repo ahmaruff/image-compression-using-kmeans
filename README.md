@@ -46,6 +46,4 @@ Proyek ini dilisensikan di bawah Lisensi MIT - lihat file [LICENSE](LICENSE) unt
 
 ## Kontak
 
-[Ahmad Ma'ruf] - [ahmadmaruf2701@gmail.com]
-
-Link Proyek: [https://github.com/ahmaruff/image-compression-using-kmeans](https://github.com/ahmaruff/image-compression-using-kmeans)
+[Ahmad Ma'ruf](ahmadmaruf2701@gmail.com)
