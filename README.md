@@ -2,15 +2,21 @@
 
 Repositori ini berisi kode dan hasil penelitian skripsi/tugas akhir tentang ekstraksi palet warna untuk kompresi gambar digital menggunakan algoritma K-Means.
 
-## Abstrak
+Publikasi hasil penelitian ini dapat diakses melalui:
 
-Seiring berkembangnya teknologi berdampak pada makin meningkatnya kebutuhan untuk efisiensi kompresi data gambar. Penelitian ini bertujuan untuk mengevaluasi performa algoritma K-Means dalam kompresi gambar digital. Algoritma K-Means digunakan untuk mengekstraksi palet warna dominan pada gambar, diikuti oleh proses kuantisasi warna untuk rekonstruksi gambar. Penelitian ini mengeksplorasi dampak jumlah klaster (K) terhadap rasio kompresi dan nilai Peak Signal to Noise Ratio (PSNR).
+[Ma’ruf, A., Sibyan, H., & Mardiyantoro, N. (2025). *Ekstraksi Palet Warna untuk Kompresi Gambar Digital menggunakan Algoritma K-Means*. Jurnal Informatika dan Rekayasa Perangkat Lunak, 7(1), 134–141.](https://publikasiilmiah.unwahas.ac.id/JINRPL/issue/view/540)
 
-Penelitian ini menggunakan metode eksperimen dengan melakukan kompresi pada gambar RGB 24-bit dengan berbagai resolusi (VGA, SVGA, HD, FHD) menggunakan jumlah klaster yang bervariasi (8, 16, 32, 64, 96, 128). Analisis deskriptif dan korelasi dilakukan untuk mengevaluasi hubungan antara variabel jumlah klaster, rasio kompresi, nilai MSE (Mean Squared Error), nilai PSNR, dan durasi komputasi.
+---
 
-Hasil penelitian menunjukkan bahwa algoritma K-Means efektif dalam kompresi gambar dengan rata-rata rasio kompresi 67%, nilai MSE 63,747, nilai PSNR 33,47 dB, dan durasi komputasi 2,59 detik. Jumlah klaster berpengaruh kuat terhadap kualitas kompresi, dengan nilai PSNR dan rasio kompresi meningkat seiring bertambahnya jumlah klaster. Jumlah klaster optimal untuk kompresi gambar adalah 96, yang menghasilkan kompresi berkualitas baik dengan durasi komputasi yang efisien.
+## Abstract
 
-**Kata Kunci:** Kompresi gambar, K-Means, Ekstraksi palet warna, Kuantisasi warna.
+The growing needs for efficient image data compression have been driven by rapid technological advancement. This study evaluates the effectiveness of the K-Means algorithm for digital image compression through dominant color palette extraction and subsequent color quantization for image reconstruction.
+
+The research investigates how the number of clusters (K) affects both compression ratio and Peak Signal-to-Noise Ratio (PSNR). An experimental approach was implemented, compressing 24-bit RGB images at various resolutions (VGA, SVGA, HD, FHD) using different cluster quantities (8, 16, 32, 64, 96, 128). Through descriptive and correlation analyses, relationships between cluster numbers, compression ratio, Mean Squared Error (MSE), PSNR values, and computation time were examined.
+
+Results demonstrate that the K-Means algorithm achieves effective image compression, with an average compression ratio of 67%, MSE of 0.00077, PSNR of 81.43 dB, and computation time of 0.73 seconds. Compression quality was strongly influenced by cluster quantity, with both PSNR values and compression ratios improving as cluster numbers increased. The research determined that 96 clusters represents the optimal configuration, delivering high-quality compression with reasonable computational efficiency
+
+**Keywords** Color palette extraction, K-Means, Image compression, Color quantization
 
 ## Deskripsi
 
@@ -36,9 +42,10 @@ Beberapa hasil utama dari penelitian ini:
 - Nilai PSNR rata-rata 33,47 dB
 - Jumlah klaster optimal adalah 96, memberikan keseimbangan antara kualitas gambar dan efisiensi komputasi
 
-## Kontribusi
-
-Kontribusi untuk perbaikan atau pengembangan lebih lanjut sangat diterima. Silakan buat *pull request* atau buka *issue* untuk diskusi lebih lanjut.
+## Library
+Sebagai bagian dari penelitian ini, saya mengembangkan sebuah library Python yang mengimplementasikan metode kompresi gambar menggunakan algoritma K-Means.  
+Library tersebut dapat diakses melalui repositori berikut:  
+[kmeans-img-compress](https://github.com/ahmaruff/kmeans-img-compress)
 
 ## Lisensi
 
